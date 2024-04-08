@@ -7,7 +7,7 @@ export function ItemResult({ id = "", image = "", price = 0, name = "", city = "
         <li className={'search-layout__item'}>
             <a href={`/items/${id}`}>
                 <div className='search-layout__image'>
-                    <img src={image} />
+                    <img alt={name} src={image} />
                 </div>
                 <div className='search-layout__content'>
                     <div className='search-layout__price'>

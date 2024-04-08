@@ -2,6 +2,7 @@ import { useMemo, useEffect, useState } from 'react';
 import { SearchBox } from '../SearchBox/SearchBox'
 import { useParams } from 'react-router-dom'
 import { BreadCrumb } from '../BreadCrumb/BreadCrumb';
+import { Preloader } from '../Preloader/Preloader';
 import './ProdcutDetail.scss'
 
 export function ProductDetail() {
@@ -65,7 +66,7 @@ export function ProductDetail() {
                     </div>
                 </section>
             ) : (
-                <span>No hay información del producto</span>
+                <Preloader />
             )}
         </>
     )

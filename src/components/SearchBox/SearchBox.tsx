@@ -18,7 +18,7 @@ export function SearchBox() {
     return (
         <header>
             <div className={'container col-10 nav-header'}>
-                <img src={logoML} alt="MercadoLibre" />
+                <a href='/'><img src={logoML} alt="Logo MercadoLibre" /></a>
                 <form className={'form-search'} role='search' onSubmit={handleSearch}>
                     <input
                         className={'input-search'}
