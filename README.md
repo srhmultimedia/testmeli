@@ -1,30 +1,31 @@
-# React + TypeScript + Vite
+TEST MERCADO LIBRE - FRONTEND
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descripción
+Esta aplicación permite buscar productos relacionados a las palabras enviadas en la caja de busqueda 
 
-Currently, two official plugins are available:
+## Funcionalidades Principales
+- En la dirección "/" encontrarás la página de búsqueda. 
+- En la dirección "/items?search=:query" encontrarás la página de resultados de búsqueda. 
+- En la dirección "/items/:id" encontrarás la página de producto.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tecnologías Utilizadas
+- React
+- Node.js
+- Express
+- HTML
+- SASS
 
-## Expanding the ESLint configuration
+## Autores
+- Sebastian Ramirez
+- sebastian.ramirez@gmail.com
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Instalación
+1. Clona este repositorio.
+2. Instala las dependencias usando el siguiente comando:
+   ```bash
+   npm install
+3. Corre el comando npm run dev para correr el FRONT y BACK de la aplicación
 
-- Configure the top-level `parserOptions` property like this:
+## API
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+La Aplicación cuenta con un API desarrollado con Express y que escucha las peticiones en el puerto localhost:3000
