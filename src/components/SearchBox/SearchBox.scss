@@ -1,0 +1,40 @@
+@import '../../styles/base/variables.scss';
+@import '../../styles/base/functions.scss';
+
+header {
+    background-color: $yellow;
+    padding: 10px 0;
+}
+
+.nav-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.form-search {
+    flex-grow: 1;
+    display: flex;
+}
+
+.input-search {
+    flex-grow: 1;
+    font-size: toRem(18);
+    color: $gray-medium;
+    padding: 10px;
+    border-radius: 5px 0 0 5px
+}
+
+.input-search {
+    &::placeholder {
+        color: $gray-medium;
+    }
+}
+
+
+.button-search {
+    padding: 0 10px;
+    border-radius: 0 5px 5px 0
+}

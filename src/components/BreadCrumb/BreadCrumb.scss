@@ -1,0 +1,18 @@
+@import '../../styles/base/functions.scss';
+
+.breadCrumb-container{
+    list-style: none;
+    display: flex;
+    padding: toRem(16) 0;
+    .breadCrumb-item {
+        color: $gray-medium;
+        &:not(:last-child)::after {
+            content: ">" ;
+            display: inline-block;
+            margin: 0 toRem(5)
+        }
+        &:last-child {
+            font-weight: bold;
+        }
+    }
+}

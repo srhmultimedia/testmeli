@@ -1,0 +1,11 @@
+@import '../../styles/base/functions.scss';
+
+.search-results {
+    background-color: white;
+}
+
+.search-layout {
+    list-style: none;
+    margin: toRem(14) auto;
+    padding: 0;
+}

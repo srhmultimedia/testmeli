@@ -1,0 +1,65 @@
+@import '../../styles/base/functions.scss';
+
+.pdp-container {
+    background-color: $white;
+    padding: toRem(32);
+}
+
+.pdp-info {
+    display: flex;
+}
+
+.pdp-info-column-left {
+    width: fit-content;
+    img {
+        width: 680px;
+    }
+}
+
+.pdp-info-state {
+    display: inline-block;
+    font-size: toRem(14);
+    margin-bottom: toRem(16);
+}
+
+.pdp-info-name {
+    font-size: toRem(24);
+    font-weight: bold;
+    margin: 0 0 toRem(32) 0;
+}
+
+.pdp-info-price {
+    display: inline-block;
+    font-size: toRem(46);
+    margin-bottom: toRem(32);
+    line-height: 1;
+}
+
+.pdp-info-button{
+    display: block;
+    background-color: $blue;
+    color: $white;
+    font-size: 1rem;
+    padding: 1.25rem 4rem;
+    border-radius: 5px;
+}
+
+.pdp-desc-title,
+.pdp-desc p {
+    margin-bottom: toRem(32);
+}
+
+.pdp-desc-title {
+    font-size: toRem(28);
+    font-weight: 400;
+    margin-top: toRem(32);
+    color: $black;
+}
+
+.pdp-desc {
+    p {
+        color: $gray-medium;
+        line-height: 1.3;
+        
+    }
+}

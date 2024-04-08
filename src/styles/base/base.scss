@@ -1,0 +1,97 @@
+@import './variables.scss';
+@import './functions.scss';
+@import './icons.scss';
+
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    background-color: $gray-light;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: $font-size-base+px;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    line-height: 1.2;
+}
+
+.container {
+    max-width: $max-width-dk;
+    margin: 0 auto;
+    clear: both;
+    box-sizing: border-box;
+}
+
+.col-12 {
+    width: calc((12%*100%)/12%)
+}
+
+.col-11 {
+    width: calc((11%*100%)/12%)
+}
+
+.col-10 {
+    width: calc((10%*100%)/12%)
+}
+
+.col-9 {
+    width: calc((9%*100%)/12%)
+}
+
+.col-8 {
+    width: calc((8%*100%)/12%)
+}
+
+.col-7 {
+    width: calc((7%*100%)/12%)
+}
+
+.col-6 {
+    width: calc((6%*100%)/12%)
+}
+
+.col-5 {
+    width: calc((5%*100%)/12%)
+}
+
+.col-4 {
+    width: calc((4%*100%)/12%)
+}
+
+.col-3 {
+    width: calc((3%*100%)/12%)
+}
+
+.col-2 {
+    width: calc((2%*100%)/12%)
+}
+
+.col-1 {
+    width: calc((1%*100%)/12%)
+}
+
+input,
+button {
+    border: none;
+    outline: 0;
+    line-height: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+i {
+    display: inline-block;
+}
+
+.d-ib {
+    display: inline-block;
+}
+
+.w-100 {
+    width: 100%;
+}

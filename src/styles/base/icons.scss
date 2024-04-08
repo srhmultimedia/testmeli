@@ -1,0 +1,33 @@
+.icon {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon-search-18  {
+    background-image: url('/src/assets/ic_Search.png');
+    background-size: 18px;
+    width: 18px;
+    height: 18px;
+}
+
+.icon-search-36 {
+    background-image: url('/src/assets/ic_Search@2x.png');
+    background-size: 36px;
+    width: 36px;
+    height: 36px;
+}
+
+.icon-shipping-18  {
+    background-image: url('/src/assets/ic_shipping.png');
+    background-size: 18px;
+    width: 18px;
+    height: 18px;
+}
+
+.icon-shipping-36 {
+    background-image: url('/src/assets/ic_shipping@2x.png');
+    background-size: 36px;
+    width: 36px;
+    height: 36px;
+}
